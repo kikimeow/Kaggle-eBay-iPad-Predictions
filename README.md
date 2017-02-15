@@ -5,6 +5,9 @@ The independent variables consist of 9 pieces of product data available at the 
 
 Link to data https://inclass.kaggle.com/c/15-071x-the-analytics-edge-summer-2015
 
-To run the model, modify the path on Run.R.  Put data into data folder created by the Run.R file.  
+To run the model, modify the path on Run.R.  Create a data folder in the path and save data into the data folder. 
+
+Two model creation files are included.  One uses H2O ensemble, the other one is Random Forest tunned using the caret package. 
+H2O Ensemble can be downloaded here: https://github.com/h2oai/h2o-3/tree/master/h2o-r/ensemble
 
 
