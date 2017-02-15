@@ -1,6 +1,3 @@
-setwd("C:/Users/kikimeow/Documents/Classes/Class- MIT Analytics (R)/Kaggle/Kaggle- ebay") #set working directory
-#load("~/Classes/Class- MIT Analytics (R)/Kaggle/Kaggle- ebay/data/preprocessedData.RData")
-
 libraries <-c("plyr", "dplyr", "tm", "Hmisc", "SnowballC", "caret")
 
 lapply(libraries, FUN = function(X) {
@@ -385,4 +382,4 @@ rm(soldTrain)
 rm(corpus)
 gc()
 
-save.image("~/Classes/Class- MIT Analytics (R)/Kaggle/Kaggle- ebay/data/preprocessedData.RData")
+save.image("data/preprocessedData.RData")
